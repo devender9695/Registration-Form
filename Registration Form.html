@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Registration Form</title>
+<style>
+
+body{
+
+   
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    
+}
+h1 ,h2{
+
+    text-align: center;
+    color: blueviolet;
+}
+
+.container{
+
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 50px;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+}
+
+.box1{
+    background-color: rgb(218, 230, 234);
+    color: rgb(38, 41, 248);
+    border-bottom: 1px solid;
+}
+.box2{
+     padding-top: 15px;
+    padding-left: 30px;
+    background-color: rgb(164, 218, 233);
+    color: rgb(15, 12, 208);
+    border-bottom: 1px solid;
+    
+
+}
+.box3{
+    padding-top: 15px;
+    padding-left: 25px;
+    background-color: rgb(164, 218, 233);
+    color: rgb(23, 15, 251);
+     border-bottom: 1px solid;
+}
+.box4{
+    margin-bottom: 25px;
+     padding-left: 45px;
+     background-color: rgb(164, 218, 233);
+     color: rgb(23, 15, 251);
+     border-bottom: 1px solid;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select{
+
+     padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+     margin: 10px;
+      
+}
+
+
+.button1{
+
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+.button2{
+
+    background-color: rgb(233, 14, 14);
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-left: 15px;
+}  
+
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+    <h1>Registration Form</h1>
+    <hr>
+    <h2>Enter your details below </h2>
+        <div class="box1">
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="date of birth">Date Of Birth:</label><br>
+    <input type="date" id="date of birth" name="date of birth"><br><br>
+    <label for="email">Enter Your Email Id:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+     <label for="password">Enter Your password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+ <label for="usercity">Enter Your City Name:</label><br>
+    <input type="text" id="usercity" name="usercity"><br><br>
+</div>
+
+   <div class="box2">
+    <ul>
+        <li>
+<h3>What is Your Aim </h3>
+
+<input type="radio" name="gender">Frontend Developer
+<input type="radio" name="gender">Backend Developer
+<input type="radio" name="gender">Full stack Developer
+<br><br>
+</li>
+</ul>
+   </div>
+<div class="box3">
+    <ul>
+        <li>
+  Or Chose In The Given Box:  <select>
+<option value="please select">--Please Select--</option>
+<option value="Data Scientist Developer">Data Scientist Developer</option>
+<option value="DevOps Developer">DevOps Developer</option>
+<option value="Software Developer">Software Developer</option>
+</select>
+</li>
+ </ul>
+</div>
+
+<div class="box4">
+
+   Add Your Comment:<textarea name="description" id="description" cols="50" rows="5"></textarea>
+</div>
+
+<br><br>
+ <div class="box5">
+<input class="button1" type="button" value="submit"><input class="button2" type="button" value="reset">
+</div>
+</form>
+
+</div>
+</body>
+</html>
